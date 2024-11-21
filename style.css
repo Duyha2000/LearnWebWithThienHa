@@ -1,0 +1,116 @@
+/* css-reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+}
+
+/* font chữ: Inter */
+/* font-size: 
+font-weight > 500 chữ đậm, < 500 chữ nhạt
+color: 
+ */
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  margin-top: 8px;
+  /* khoảng cách giữa các dòng */
+  line-height: 1.4;
+  /* khoảng cách giữa các con chữ */
+  letter-spacing: 1px;
+}
+
+form {
+  width: 40vw;
+  padding-bottom: 2em;
+  background-color: #e7ebe94d;
+  padding-top: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.field {
+}
+
+.fill {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 8px;
+  border: none; /* tắt màu border mặc định của trình duyệt (nửa đen nửa xám) */
+  border: 1px solid gray;
+  width: 100%;
+  /* bo góc 4 đường viền ( 8px hoặc 16px): border-radius */
+  /* ẩn màu border: border:none */
+  /* set lại màu: border: 1px solid (nét liền) gray */
+  margin-top: 8px;
+}
+
+.password {
+}
+
+.checkbox {
+}
+
+button {
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #2656d6f2;
+  outline: none;
+  border: none;
+  color: #f5f5f9;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.account {
+  text-align: center;
+  margin-top: 19px;
+}
+
+/* có 2 cách xuống dòng
+1. Dùng thẻ <br/> trong html
+*/
+
+/* padding để tạo nội dung bên trong thẻ to (rộng ra) */
+/* margin để tạo khoảng cách giữa 2 thẻ khác nhau */

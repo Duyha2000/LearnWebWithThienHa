@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- http://localhost:5500/index.html -->
+  <!-- title  -->
+  <!-- input với label là 2 thẻ riêng biệt, tất cả input label sẽ nằm trong 1 thẻ lớn là thẻ form -->
+  <body>
+    <form>
+      <h1 class="title">Account Login</h1>
+      <p>
+        If you are already a member you can login with your email address and
+        password
+      </p>
+
+      <br />
+      <div class="field">
+        <label for="email">Email address</label>
+        <br />
+        <input class="fill" id="email" name="email" type="email" required />
+
+        <br />
+        <label class="password" for="password">Password</label>
+        <br />
+        <input
+          class="fill"
+          id="password"
+          name="password"
+          type="password"
+          required
+        />
+      </div>
+
+      <br />
+      <input class="checkbox" type="checkbox" /> <span>Remember me </span>
+
+      <br />
+      <button>Register Account</button>
+
+      <br />
+      <div class="account">
+        <label
+          >Dont have an account ?
+          <a href="www.lybhealthyfood.com" target="_blank"
+            >Sign up here</a
+          ></label
+        >
+      </div>
+    </form>
+  </body>
+</html>
